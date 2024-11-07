@@ -1,7 +1,7 @@
 'use client'
 import { useParams } from "next/navigation"
 import { useState, useCallback } from 'react'
-import redis from '../../../utils/redis';
+// import redis from '../../../utils/redis';
 
 interface Row {
     time1: string;
@@ -12,10 +12,10 @@ interface Rows {
     [key: string]: Row[];
 }
 
-interface OccupancyTimeSlot {
-    time1: string;
-    time2: string;
-  }
+// interface OccupancyTimeSlot {
+//     time1: string;
+//     time2: string;
+//   }
   
 //   interface UserOccupancy {
 //     Sunday: OccupancyTimeSlot[];
